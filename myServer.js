@@ -22,7 +22,7 @@ var DB = new db.myDB('./data');
 
 app.get('/',ctrl.sendStatic);
 
-app.get('/stream',ctrl.sendDatasets);
+app.get('/streams',ctrl.sendDatasets);
 
 //app.get('/stream/:name',ctrl.sendLastPosts);
 

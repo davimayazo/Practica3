@@ -90,7 +90,7 @@ div#fotos{
 
 	  
 	   //**Cambiar para que obtenga los nombres de los botones llamando al servicio REST
-	   $.getJSON("http://localhost:8080/stream",function(data) { //streams
+	   $.getJSON("http://localhost:8080/streams",function(data) { //streams
 		let lbuttons=data.result;
 		   $.each(lbuttons,function(indx,data){
 	   	addButton(data);
